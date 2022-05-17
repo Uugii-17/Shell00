@@ -1,0 +1,5 @@
+mkdir ex00
+vim z
+Z
+:wq
+cat z
