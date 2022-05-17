@@ -1,0 +1,5 @@
+mkdir ex06
+cd ex06
+vim git_ignore.sh
+#!/bin/bash
+git ls -files -i --o --exclude -standart :wq
