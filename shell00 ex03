@@ -1,0 +1,10 @@
+klist
+kinit root/admin
+password: 
+klist
+cd Shell00 
+mkdir ex03
+cd ex03
+klist > klist.txt
+ls klist.txt
+cat klist.txt
