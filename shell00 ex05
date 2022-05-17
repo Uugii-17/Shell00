@@ -1,0 +1,6 @@
+vim git_commit.sh
+#!/bin/bash
+git log --format='%H' -n5 :wq
+or 
+#!/bin/bash
+git log -5 --format=%H :wq
