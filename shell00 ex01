@@ -1,0 +1,7 @@
+mkdir ex01
+vi testShell00
+40 character write on testShell00 file :wq
+chmod 455 testShell00
+touch -t 01012342 testShell00
+ls -l
+tar -cf testShell00.tar testShell00
