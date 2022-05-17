@@ -1,0 +1,4 @@
+mkdir ex04
+cd ex04
+vim midLS
+ls -m -t -p :wq
