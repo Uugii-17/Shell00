@@ -1,0 +1,9 @@
+vim ft_magic
+41 string=42 42 file
+
+
+file -C -m ft_magic.mgc
+vi ft_magic.mgc
+file name== 42 file
+string=42
+41 byt
