@@ -1,0 +1,13 @@
+man find
+vim clear
+find . -type f \(-name "#*#" -o -name "*~"\) -print -delete
+
+
+#shalgaj uzehdee heregleh sh fle 
+vim clear.sh
+#!/bin/zsh
+filename =("#*#" "*~")
+for name in ${filename[@]}
+do 
+find . type f\(-name "$name"\) -print #-delete
+done 
